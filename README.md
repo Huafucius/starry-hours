@@ -45,11 +45,49 @@
 
 > 将具体人物的思维模型或工作方法提取为可调用的 Skill。
 
+### 思想家
+
+| Repo | 人名 | 简介 |
+|------|------|------|
+| [RoundTable02/socrates-skill](https://github.com/RoundTable02/socrates-skill) | 苏格拉底 | 将苏格拉底式提问法提炼成教学 Skill，通过连续追问引导用户自行发现答案。 |
+| [alchaincyf/feynman-skill](https://github.com/alchaincyf/feynman-skill) | 理查德·费曼 | 将费曼的认知操作系统蒸馏为可运行的 Skill，强调第一性检验、清晰解释与自我纠错。 |
+| [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | 纳西姆·塔勒布 | 提炼 Taleb 的反脆弱、风险暴露与非对称收益框架，用于判断复杂系统中的真实脆弱点。 |
+
+### 政治家
+
 | Repo | 人名 | 简介 |
 |------|------|------|
 | [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | 毛泽东 | 从教员相关著作中提炼出一条总原则和九大方法论工具，系统性地武装 AI 的大脑，用于现实问题拆解。 |
-| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | Andrej Karpathy | 将 Karpathy 式的自主研究工作流转换为可执行的循环 skill（修改、验证、保留或丢弃）。 |
-| [haberlah/wardley-mapping](https://github.com/haberlah/wardley-mapping) | Simon Wardley | 围绕 Wardley Mapping 的战略分析方法构建的交互式分析 skill。 |
+| [leezythu/maoxuan-skill](https://github.com/leezythu/maoxuan-skill) | 毛泽东 | 将《毛选》中的思维框架、决策启发式与表达结构整理为人物强绑定的分析 Skill。 |
+| [alchaincyf/trump-skill](https://github.com/alchaincyf/trump-skill) | Donald Trump | 围绕 Trump 的谈判、权力感与议题主导方式，提炼出高压博弈与表达驱动型 Skill。 |
+
+### 企业家
+
+| Repo | 人名 | 简介 |
+|------|------|------|
+| [EveryInc/charlie-cfo-skill](https://github.com/EveryInc/charlie-cfo-skill) | Charlie Munger | 以 Charlie Munger 为认知原型，把资本纪律、单位经济和现金管理封装成 bootstrap CFO Skill。 |
+| [alchaincyf/munger-skill](https://github.com/alchaincyf/munger-skill) | Charlie Munger | 将芒格的多学科思维、逆向思考与避免愚蠢原则蒸馏为通用商业判断 Skill。 |
+| [will2025btc/buffett-perspective](https://github.com/will2025btc/buffett-perspective) | Warren Buffett | 将 Buffett 的长期主义、能力圈与资本配置框架转成可调用的投资认知 Skill。 |
+| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | Steve Jobs | 提炼 Steve Jobs 在产品审美、聚焦取舍与叙事表达上的认知操作系统。 |
+| [alchaincyf/elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill) | Elon Musk | 将 Musk 的第一性原理、工程约束与成本思维蒸馏为高压执行型 Skill。 |
+| [alchaincyf/zhang-yiming-skill](https://github.com/alchaincyf/zhang-yiming-skill) | 张一鸣 | 围绕张一鸣在信息分发、组织效率与长期竞争力上的判断方式，整理为企业经营 Skill。 |
+
+### 技术领袖
+
+| Repo | 人名 | 简介 |
+|------|------|------|
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | Andrej Karpathy | 将 Karpathy 对 LLM 编程失误与工作流的观察整理为 Claude Code 可直接采用的技术原则。 |
+| [rjs/shaping-skills](https://github.com/rjs/shaping-skills) | Ryan Singer | 将 Ryan Singer 的 Shape Up / shaping 方法拆成可执行技能，用于问题塑形与方案粗建模。 |
+
+### 公众人物
+
+| Repo | 人名 | 简介 |
+|------|------|------|
+| [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 张雪峰 | 将张雪峰在升学、考研与职业判断上的现实主义框架提炼为可直接调用的咨询 Skill。 |
+| [YixiaJack/luo-xiang-skill](https://github.com/YixiaJack/luo-xiang-skill) | 罗翔 | 让 AI 以罗翔的法学思维与人文关怀分析问题，强调正义、边界与制度理解。 |
+| [hotcoffeeshake/tong-jincheng-skill](https://github.com/hotcoffeeshake/tong-jincheng-skill) | 童锦程 | 将童锦程的人际关系判断与直白表达风格蒸馏成关系分析类 Skill。 |
+| [Janlaywss/hu-chenfeng-skill](https://github.com/Janlaywss/hu-chenfeng-skill) | 户晨风 | 以户晨风的消费现实主义与个人发展视角，分析选择、定居与日常决策。 |
+| [rottenpen/fengge-wangmingtianya-perspective](https://github.com/rottenpen/fengge-wangmingtianya-perspective) | 峰哥亡命天涯 | 提炼峰哥亡命天涯的现实主义叙事与去魅视角，形成带江湖感的中文人物 Skill。 |
 
 ## 📚 书籍 / Books
 

@@ -35,6 +35,7 @@ open README.md
 
 | Date | Topic | Summary |
 |------|-------|---------|
+| [2026-04-08](plans/2026-04-08-finalize-figure-index.md) | Finalize figure index | Replace loose figure rows with the approved celebrity-centered taxonomy in both READMEs |
 | [2026-04-08](plans/2026-04-08-readme-landing.md) | README landing rewrite | Reposition the README as a GitHub-native landing page while keeping only figures and books as core index categories |
 
 ---

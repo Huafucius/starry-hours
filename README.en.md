@@ -45,11 +45,49 @@ Repositories that clearly demonstrate a solid `source -> skill` distillation pat
 
 > Extracting the mental models or working methods of specific figures into callable skills.
 
+### Thinkers
+
 | Repo | Name | Description |
 |------|------|-------------|
-| [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | Mao Zedong | Distills one general principle and nine methodological tools for real-world problem-solving. |
-| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | Andrej Karpathy | Converts the Karpathy-style autonomous research loop into an executable skill (modify, verify, keep/discard). |
-| [haberlah/wardley-mapping](https://github.com/haberlah/wardley-mapping) | Simon Wardley | An interactive skill built around the strategic analysis methods of Wardley Mapping. |
+| [RoundTable02/socrates-skill](https://github.com/RoundTable02/socrates-skill) | Socrates | Distills the Socratic method into a teaching skill that helps users discover answers through disciplined questioning. |
+| [alchaincyf/feynman-skill](https://github.com/alchaincyf/feynman-skill) | Richard Feynman | Turns Feynman's cognitive operating system into a runnable skill focused on first-principles checking, clear explanation, and self-correction. |
+| [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | Nassim Nicholas Taleb | Distills Taleb's frameworks for antifragility, risk exposure, and asymmetric payoff into a callable judgment skill. |
+
+### Politicians
+
+| Repo | Name | Description |
+|------|------|-------------|
+| [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | Mao Zedong | Distills one general principle and nine methodological tools from Mao-related works for real-world problem-solving. |
+| [leezythu/maoxuan-skill](https://github.com/leezythu/maoxuan-skill) | Mao Zedong | Reworks the thinking frameworks, decision heuristics, and expression patterns of *Selected Works of Mao* into a figure-bound analytical skill. |
+| [alchaincyf/trump-skill](https://github.com/alchaincyf/trump-skill) | Donald Trump | Distills Trump's negotiation instincts, power framing, and agenda-control style into a high-pressure strategic skill. |
+
+### Entrepreneurs
+
+| Repo | Name | Description |
+|------|------|-------------|
+| [EveryInc/charlie-cfo-skill](https://github.com/EveryInc/charlie-cfo-skill) | Charlie Munger | Uses Charlie Munger as the cognitive anchor for a bootstrap CFO skill covering capital discipline, unit economics, and cash management. |
+| [alchaincyf/munger-skill](https://github.com/alchaincyf/munger-skill) | Charlie Munger | Distills Munger's multidisciplinary thinking, inversion, and anti-stupidity principles into a general business skill. |
+| [will2025btc/buffett-perspective](https://github.com/will2025btc/buffett-perspective) | Warren Buffett | Converts Buffett's long-termism, circle-of-competence logic, and capital allocation style into an investable judgment skill. |
+| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | Steve Jobs | Distills Steve Jobs's cognitive operating system around product taste, ruthless focus, and persuasive storytelling. |
+| [alchaincyf/elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill) | Elon Musk | Turns Musk's first-principles reasoning, engineering constraints, and cost focus into a high-intensity execution skill. |
+| [alchaincyf/zhang-yiming-skill](https://github.com/alchaincyf/zhang-yiming-skill) | Zhang Yiming | Captures Zhang Yiming's judgments around information distribution, organizational efficiency, and long-term business competitiveness. |
+
+### Technical Leaders
+
+| Repo | Name | Description |
+|------|------|-------------|
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | Andrej Karpathy | Packages Karpathy's observations on LLM coding mistakes and workflow discipline into directly usable Claude Code principles. |
+| [rjs/shaping-skills](https://github.com/rjs/shaping-skills) | Ryan Singer | Breaks Ryan Singer's Shape Up / shaping methods into executable skills for framing problems and roughing out solution spaces. |
+
+### Public Figures
+
+| Repo | Name | Description |
+|------|------|-------------|
+| [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | Zhang Xuefeng | Distills Zhang Xuefeng's realist frameworks for education choice, graduate exams, and career judgment into a callable consulting skill. |
+| [YixiaJack/luo-xiang-skill](https://github.com/YixiaJack/luo-xiang-skill) | Luo Xiang | Lets the AI analyze questions with Luo Xiang's legal reasoning and humanistic concern, emphasizing justice, boundaries, and institutions. |
+| [hotcoffeeshake/tong-jincheng-skill](https://github.com/hotcoffeeshake/tong-jincheng-skill) | Tong Jincheng | Distills Tong Jincheng's relationship judgment and blunt interpersonal style into a people-reading skill. |
+| [Janlaywss/hu-chenfeng-skill](https://github.com/Janlaywss/hu-chenfeng-skill) | Hu Chenfeng | Uses Hu Chenfeng's consumer realism and life-choice perspective to analyze spending, settling down, and everyday decisions. |
+| [rottenpen/fengge-wangmingtianya-perspective](https://github.com/rottenpen/fengge-wangmingtianya-perspective) | Fengge Wangming Tianya | Distills Fengge Wangming Tianya's disillusioned realism and wandering-storytelling style into a Chinese persona skill. |
 
 ## 📚 Books
 
