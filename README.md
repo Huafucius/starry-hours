@@ -20,121 +20,99 @@
 
 ## 📋 目录 / Table of Contents
 
-- [快速开始 / Quick Start](#-快速开始--quick-start)
-- [Skills 合集 / Collection](#-skills-合集--collection)
-- [如何贡献 / Contributing](#-如何贡献--contributing)
-- [什么是好的 Skill / What Makes a Good Skill](#-什么是好的-skill--what-makes-a-good-skill)
+- [人物蒸馏 / Figure Distillation](#-人物蒸馏--figure-distillation)
+- [著作蒸馏 / Book Distillation](#-著作蒸馏--book-distillation)
+- [思维框架合集 / Thinking Framework Collections](#-思维框架合集--thinking-framework-collections)
+- [Meta 工具 / Meta Tools](#-meta-工具--meta-tools)
+- [自有 Skills / Our Skills](#-自有-skills--our-skills)
 - [路线图 / Roadmap](#-路线图--roadmap)
-- [致谢 / Credits](#-致谢--credits)
+- [贡献 / Contributing](#-贡献--contributing)
 - [许可证 / License](#-许可证--license)
 
 ---
 
-## 🚀 快速开始 / Quick Start
+## 🧠 人物蒸馏 / Figure Distillation
 
-```bash
-# 将 skill 文件放入你的 Claude Code skills 目录
-# Place the skill file into your Claude Code skills directory
-cp skills/sunzi.md ~/.claude/skills/
+> 以某个具体人物的思维方式为核心蒸馏出的 skill。
 
-# 在 Claude Code 中调用
-# Invoke in Claude Code
-/sunzi 分析一下我们团队目前面临的竞争格局
-```
+| Repo | ⭐ | 蒸馏对象 / Figure | 简介 / Description |
+|------|-----|-------------------|-------------------|
+| [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | 1.3k | 毛泽东 / Mao Zedong | 一条总原则 + 九大方法论工具：矛盾论、实践论、调查研究、群众路线…… |
+| [EveryInc/charlie-cfo-skill](https://github.com/EveryInc/charlie-cfo-skill) | 188 | 查理·芒格 / Charlie Munger | 自举式 CFO 财务管理：资本纪律、单位经济、现金管理 |
+| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 10.7k | 任意真实人物 / Any Real Person | 从聊天记录、文档、截图中蒸馏一个真实的人 —— 数字生命 1.0 |
+| [haberlah/wardley-mapping](https://github.com/haberlah/wardley-mapping) | 2 | Simon Wardley | 交互式 Wardley Map 战略分析 |
 
----
+## 📚 著作蒸馏 / Book Distillation
 
-## 🌟 Skills 合集 / Collection
+> 将某本经典著作的方法论提取为 skill。
 
-### 🗡️ 战略与决策 / Strategy & Decision-Making
+| Repo | ⭐ | 著作 / Book | 简介 / Description |
+|------|-----|------------|-------------------|
+| [slavingia/skills](https://github.com/slavingia/skills) | 7.4k | *The Minimalist Entrepreneur* | 每章 → 一个 slash command：/find-community, /validate-idea, /mvp… |
+| [obra/the-elements-of-style](https://github.com/obra/the-elements-of-style) | 330 | *The Elements of Style* (1918) | Strunk 的 18 条写作清规，用于文档和用户文案审校 |
+| [luoling8192/software-design-philosophy-skill](https://github.com/luoling8192/software-design-philosophy-skill) | 261 | *A Philosophy of Software Design* | John Ousterhout 的软件设计哲学 |
+| [ginobefun/deep-reading-analyst-skill](https://github.com/ginobefun/deep-reading-analyst-skill) | 301 | 多本经典 / Multiple Classics | 融合 Dalio《原则》、芒格思维模型、Musk 第一性原理的深度阅读分析 |
 
-| Skill | 人物 / Figure | 核心框架 / Core Framework | 状态 / Status |
-|-------|--------------|--------------------------|--------------|
-| — | 孙子 / Sun Tzu | 势、虚实、奇正 | 🔜 Coming Soon |
-| — | 克劳塞维茨 / Clausewitz | 战争迷雾、重心理论 | 🔜 Coming Soon |
+## 🔮 思维框架合集 / Thinking Framework Collections
 
-### 🧠 思维与分析 / Thinking & Analysis
+> 多位思想家/多个思维模型的综合 skill。
 
-| Skill | 人物 / Figure | 核心框架 / Core Framework | 状态 / Status |
-|-------|--------------|--------------------------|--------------|
-| [qiushi-skill](https://github.com/HughYau/qiushi-skill) | 毛泽东 / Mao Zedong | 矛盾论、实践论、调查研究 | ✅ Available |
-| — | 查理·芒格 / Charlie Munger | 多元思维模型、反演法 | 🔜 Coming Soon |
-| — | 理查德·费曼 / Richard Feynman | 第一性原理、费曼学习法 | 🔜 Coming Soon |
+| Repo | ⭐ | 简介 / Description |
+|------|-----|-------------------|
+| [GBSOSS/skill-from-masters](https://github.com/GBSOSS/skill-from-masters) | 1.4k | 站在巨人肩膀上——Dalio、芒格、格鲁夫、贝佐斯、Annie Duke 等大师方法论 |
+| [tjboudreaux/cc-thinking-skills](https://github.com/tjboudreaux/cc-thinking-skills) | 27 | 18 个思维模型：第一性原理、贝叶斯推理、OODA 循环、系统思考、事前验尸…… |
+| [wondelai/skills](https://github.com/wondelai/skills) | 478 | 25 个 agent skill：UX (Don Norman)、影响力 (Cialdini)、精益 (Eric Ries)… |
+| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | 3.4k | 受 Karpathy 启发的自主研究循环：修改 → 验证 → 保留/丢弃 → 永远重复 |
+| [NeoLabHQ/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) | 776 | 手工打磨的 skill 合集，含丰田 Kaizen 持续改善插件 |
+| [BrianRWagner/ai-marketing-claude-code-skills](https://github.com/BrianRWagner/ai-marketing-claude-code-skills) | 215 | 营销框架实战：Drucker、Ogilvy、Godin、Buffett、Munger、Bezos、Jobs |
+| [guia-matthieu/clawfu-skills](https://github.com/guia-matthieu/clawfu-skills) | 62 | 172 个专家级营销 skill：April Dunford 定位、Schwartz 文案、Ogilvy 广告、Cialdini 影响力 |
 
-### 🏛️ 管理与组织 / Management & Organization
+## 🛠️ Meta 工具 / Meta Tools
 
-| Skill | 人物 / Figure | 核心框架 / Core Framework | 状态 / Status |
-|-------|--------------|--------------------------|--------------|
-| — | 彼得·德鲁克 / Peter Drucker | 目标管理、有效决策 | 🔜 Coming Soon |
-| — | 安迪·格鲁夫 / Andy Grove | OKR、偏执狂生存 | 🔜 Coming Soon |
+> 不是某个具体人物的 skill，而是**生成 skill 的 skill**。
 
-### 🎨 创造与设计 / Creativity & Design
-
-| Skill | 人物 / Figure | 核心框架 / Core Framework | 状态 / Status |
-|-------|--------------|--------------------------|--------------|
-| — | 达·芬奇 / Leonardo da Vinci | 跨学科观察、类比发明 | 🔜 Coming Soon |
-| — | 深泽直人 / Naoto Fukasawa | 无意识设计、affordance | 🔜 Coming Soon |
-
-### 📐 科学与工程 / Science & Engineering
-
-| Skill | 人物 / Figure | 核心框架 / Core Framework | 状态 / Status |
-|-------|--------------|--------------------------|--------------|
-| — | 冯·诺依曼 / John von Neumann | 系统建模、博弈论 | 🔜 Coming Soon |
-| — | 钱学森 / Qian Xuesen | 系统工程方法论 | 🔜 Coming Soon |
+| Repo | ⭐ | 简介 / Description |
+|------|-----|-------------------|
+| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 10.7k | 从聊天记录/文档/截图蒸馏任意真实人物为 skill |
+| [GBSOSS/skill-from-masters](https://github.com/GBSOSS/skill-from-masters) | 1.4k | Meta-skill：先从大师方法论库中检索，再生成新 skill |
 
 ---
 
-## 🤝 如何贡献 / Contributing
+## 📂 自有 Skills / Our Skills
 
-我们欢迎所有人贡献 skill！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详情。
+> `skills/` 目录下的原创 skill。社区共建，欢迎 PR。
 
-*We welcome all contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.*
-
-**简要流程 / Quick Process:**
-
-1. **Fork** 本仓库
-2. 在 `skills/` 目录下创建你的 skill 文件
-3. 在 README 表格中添加条目
-4. 提交 **Pull Request**
-
----
-
-## 🎯 什么是好的 Skill / What Makes a Good Skill
-
-> **蒸馏，而非模仿。**
->
-> *Distillation, not imitation.*
-
-| ✅ 好的 Skill | ❌ 不好的 Skill |
-|---|---|
-| 提取可操作的思维框架 | 模仿说话语气和口头禅 |
-| 面对真实问题时能给出结构化拆解 | 只会输出名言金句 |
-| 有清晰的适用场景和局限性说明 | 号称万能，实际万不能 |
-| 经过真实场景测试和迭代 | 写完就扔，从未验证 |
+| Skill | 蒸馏对象 / Figure | 状态 / Status |
+|-------|-------------------|--------------|
+| *虚位以待* | *等你来* | 🔜 Coming Soon |
 
 ---
 
 ## 🗺️ 路线图 / Roadmap
 
-- [x] 项目启动，建立框架
-- [ ] 首批 5 个高质量 skill 上线
-- [ ] 贡献指南与质量标准
-- [ ] **Meta-Skill**：自动从公开资料蒸馏任意人物的思维框架
+- [x] 项目启动，索引框架上线
+- [ ] 首批自有 skill（`skills/` 目录）
+- [ ] **Meta-Skill**：输入任意人名 → 自动信息收集 → 提取思维范式 → 自进化蒸馏 → 输出可用 skill
 - [ ] Skill 效果评测体系
 - [ ] 社区投票与排行榜
 
 ---
 
-## 🙏 致谢 / Credits
+## 🤝 贡献 / Contributing
 
-- [qiushi-skill](https://github.com/HughYau/qiushi-skill) — 灵感起源，《毛选》蒸馏 skill
-- [Stefan Zweig](https://en.wikipedia.org/wiki/Decisive_Moments_in_History) — 「人类群星闪耀时」，本项目精神图腾
+**索引贡献**：发现了好的 personalized skill？提 PR 加到对应分类表格中。
+
+**原创 skill**：在 `skills/` 目录下创建 `.md` 文件，附上蒸馏对象、核心框架、适用场景。
+
+原则：**蒸馏，而非模仿。** 提取思维框架，而非模仿说话语气。
+
+*Found a great personalized skill? PR it into the index. Want to create one? Add it to `skills/`. Principle: **Distillation, not imitation.***
 
 ---
 
 ## 📄 许可证 / License
 
-[MIT](LICENSE) © 2026 Awesome Personalized Skills Contributors
+[MIT](LICENSE)
 
 ---
 

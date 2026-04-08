@@ -1,60 +1,52 @@
 # 贡献指南 / Contributing Guide
 
-感谢你对本项目的兴趣！以下是贡献的基本规范。
+## 添加索引 / Add to Index
 
-*Thanks for your interest! Here are the basic guidelines for contributing.*
+发现了好的 personalized skill 仓库？直接编辑 `README.md`，将其添加到对应分类表格，提交 PR。
 
-## 📁 Skill 文件规范 / Skill File Spec
+*Found a great personalized skill repo? Edit `README.md`, add it to the right category table, and submit a PR.*
 
-每个 skill 应放在 `skills/` 目录下，以人物名命名（小写拼音或英文），格式为 `.md`：
+**要求 / Requirements:**
+- 仓库必须真实存在且可访问
+- 必须与人物、著作或思维框架蒸馏相关
+- 附上准确的 star 数（取近似值即可）
+
+## 贡献原创 Skill / Contribute Original Skills
+
+在 `skills/` 目录下创建 `.md` 文件：
 
 ```
 skills/
-├── maozedong.md
-├── munger.md
-├── sunzi.md
+├── your-skill-name.md
 └── ...
 ```
 
-### Skill 文件结构 / Structure
+**Skill 文件结构 / Structure:**
 
 ```markdown
 ---
 name: skill 名称
-description: 一句话描述
-author: 你的 GitHub 用户名
 figure: 蒸馏对象
 source: 主要参考资料
 ---
 
 ## 核心框架 / Core Framework
-
 （提取的思维模型、方法论）
 
 ## 适用场景 / When to Use
-
 （什么问题适合用这个 skill）
 
 ## 局限性 / Limitations
-
 （什么场景不适用）
 
 ## Skill 正文 / Skill Body
-
 （实际的 skill prompt 内容）
 ```
 
-## ✅ 提交检查清单 / PR Checklist
+## 原则 / Principles
 
-- [ ] Skill 文件放在 `skills/` 目录下
-- [ ] README 表格中已添加对应条目
-- [ ] 经过至少 3 个真实场景测试
-- [ ] 包含适用场景和局限性说明
-- [ ] 不含角色扮演或语气模仿内容
+**蒸馏 > 模仿**：提取思维框架，而非模仿说话方式。
 
-## 🎯 质量原则 / Quality Principles
+**实用 > 炫技**：面对真实问题要能产出可操作的拆解。
 
-1. **蒸馏 > 模仿**：提取思维框架，而非模仿说话方式
-2. **实用 > 炫技**：面对真实问题要能产出可操作的拆解
-3. **诚实 > 万能**：明确说明局限性，不夸大适用范围
-4. **验证 > 想象**：必须经过真实场景测试
+**诚实 > 万能**：明确说明局限性，不夸大适用范围。
