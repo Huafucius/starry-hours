@@ -13,7 +13,7 @@
 
 **English** • [简体中文](README.md)
 
-A repository that now does two things: curates external skills and incubates in-repo skill-factory prototypes.
+A curated index of external skills — and an in-repo factory that makes more.
 
 [Repository Structure](#-repository-structure) • [Figures](#-figures) • [Books](#-books) • [Brands](#-brands) • [Contributing](#-contributing)
 
@@ -26,7 +26,7 @@ This repository now has two tracks:
 1. **Awesome index**: a curated list of real, public skill repositories that clearly trace back to a specific **figure**, **book**, or **brand**.
 2. **Skill factory prototypes**: in-repo skills under `skills/` that generate new distilled skills, starting with public-information figure skills.
 
-We reject generic role-playing and empty hodgepodges, focusing entirely on extracting truly reusable **thinking frameworks** and **business logic**.
+No role-play packs, no catch-all bundles — only repos that extract a real **thinking framework** or **business logic**.
 
 ## Contents
 
@@ -53,7 +53,7 @@ We reject generic role-playing and empty hodgepodges, focusing entirely on extra
 - `skills/luxun-perspective/`
   - A Lu Xun demo skill generated as the first end-to-end verification artifact
 
-The current prototype only supports **figures**. Book and brand generators come later.
+The current prototype only handles **figures**. Books and brands come later.
 
 ## 🌟 Featured
 

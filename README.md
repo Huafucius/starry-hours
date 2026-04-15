@@ -13,7 +13,7 @@
 
 [English](README.en.md) • **简体中文**
 
-一个既收录外部 skill、也在仓库内孵化 skill factory 原型的精选项目。
+一份外部 skill 的精选索引；也是一座「做 skill 的 skill」的工厂。
 
 [仓库结构](#-仓库结构--repository-structure) • [人物](#-人物--figures) • [书籍](#-书籍--books) • [品牌](#-品牌--brands) • [贡献](#-贡献--contributing)
 
@@ -26,7 +26,7 @@
 1. **Awesome 索引**：收录真实存在、公开可访问，并且能明确溯源到具体**人物**、**书籍**或**品牌**的 Skill 仓库。
 2. **Skill Factory 原型**：在 `skills/` 目录中孵化“创造 skill 的 skill”，先从人物蒸馏开始，后续扩展到书籍和品牌。
 
-我们拒绝泛泛的角色扮演和空洞的大杂烩，专注于提取真正可复用的**思维框架**与**业务逻辑**。
+不收泛泛的角色扮演，不收空洞的大杂烩——只蒸馏**思维框架**与**业务逻辑**。
 
 ## 目录 / Contents
 
@@ -53,7 +53,7 @@
 - `skills/luxun-perspective/`
   - 用 `create-figure-skill` 原型验证生成的鲁迅 demo skill
 
-当前原型只支持**人物**；书籍与品牌生成器会在后续版本继续补齐。
+当前原型只做**人物**，书籍和品牌以后再说。
 
 ## 🌟 精选 / Featured
 
