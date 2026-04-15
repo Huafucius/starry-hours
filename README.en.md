@@ -1,4 +1,4 @@
-# Awesome Personalized Skills
+# 群星 · Starry Hours
 
 <div align="center">
 
@@ -83,7 +83,7 @@ Repositories that clearly demonstrate a solid `source -> skill` distillation pat
 |------|------|-------------|
 | [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | Mao Zedong | Distills one general principle and nine methodological tools from Mao-related works for real-world problem-solving. |
 | [leezythu/maoxuan-skill](https://github.com/leezythu/maoxuan-skill) | Mao Zedong | Reworks the thinking frameworks, decision heuristics, and expression patterns of *Selected Works of Mao* into a figure-bound analytical skill. |
-| [alchaincyf/trump-skill](https://github.com/alchaincyf/trump-skill) | Donald Trump | Distills Trump's negotiation instincts, power framing, and agenda-control style into a high-pressure strategic skill. |
+| [alchaincyf/trump-skill](https://github.com/alchaincyf/trump-skill) | Donald Trump | Distills Trump's negotiation, framing, and agenda-setting approaches into an assertive communication skill. |
 
 ### Entrepreneurs
 
@@ -117,9 +117,6 @@ Repositories that clearly demonstrate a solid `source -> skill` distillation pat
 | [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | Zhang Xuefeng | Distills Zhang Xuefeng's realist frameworks for education choice, graduate exams, and career judgment into a callable consulting skill. |
 | [YixiaJack/luo-xiang-skill](https://github.com/YixiaJack/luo-xiang-skill) | Luo Xiang | Lets the AI analyze questions with Luo Xiang's legal reasoning and humanistic concern, emphasizing justice, boundaries, and institutions. |
 | [alchaincyf/mrbeast-skill](https://github.com/alchaincyf/mrbeast-skill) | MrBeast | Distills MrBeast's content-production system, hook strategy, and pacing logic into a creator-focused growth skill. |
-| [hotcoffeeshake/tong-jincheng-skill](https://github.com/hotcoffeeshake/tong-jincheng-skill) | Tong Jincheng | Distills Tong Jincheng's relationship judgment and blunt interpersonal style into a people-reading skill. |
-| [Janlaywss/hu-chenfeng-skill](https://github.com/Janlaywss/hu-chenfeng-skill) | Hu Chenfeng | Uses Hu Chenfeng's consumer realism and life-choice perspective to analyze spending, settling down, and everyday decisions. |
-| [rottenpen/fengge-wangmingtianya-perspective](https://github.com/rottenpen/fengge-wangmingtianya-perspective) | Fengge Wangming Tianya | Distills Fengge Wangming Tianya's disillusioned realism and wandering-storytelling style into a Chinese persona skill. |
 
 ## 📚 Books
 

@@ -1,4 +1,4 @@
-# Awesome Personalized Skills
+# 群星 · Starry Hours
 
 <div align="center">
 
@@ -83,7 +83,7 @@
 |------|------|------|
 | [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | 毛泽东 | 从教员相关著作中提炼出一条总原则和九大方法论工具，系统性地武装 AI 的大脑，用于现实问题拆解。 |
 | [leezythu/maoxuan-skill](https://github.com/leezythu/maoxuan-skill) | 毛泽东 | 将《毛选》中的思维框架、决策启发式与表达结构整理为人物强绑定的分析 Skill。 |
-| [alchaincyf/trump-skill](https://github.com/alchaincyf/trump-skill) | Donald Trump | 围绕 Trump 的谈判、权力感与议题主导方式，提炼出高压博弈与表达驱动型 Skill。 |
+| [alchaincyf/trump-skill](https://github.com/alchaincyf/trump-skill) | Donald Trump | 提炼 Trump 在谈判、表达与议题设置上的方式，形成一套强表达型的沟通 Skill。 |
 
 ### 企业家
 
@@ -117,9 +117,6 @@
 | [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 张雪峰 | 将张雪峰在升学、考研与职业判断上的现实主义框架提炼为可直接调用的咨询 Skill。 |
 | [YixiaJack/luo-xiang-skill](https://github.com/YixiaJack/luo-xiang-skill) | 罗翔 | 让 AI 以罗翔的法学思维与人文关怀分析问题，强调正义、边界与制度理解。 |
 | [alchaincyf/mrbeast-skill](https://github.com/alchaincyf/mrbeast-skill) | MrBeast | 将 MrBeast 的内容制作、标题策略与传播节奏提炼为面向创作者的内容增长 Skill。 |
-| [hotcoffeeshake/tong-jincheng-skill](https://github.com/hotcoffeeshake/tong-jincheng-skill) | 童锦程 | 将童锦程的人际关系判断与直白表达风格蒸馏成关系分析类 Skill。 |
-| [Janlaywss/hu-chenfeng-skill](https://github.com/Janlaywss/hu-chenfeng-skill) | 户晨风 | 以户晨风的消费现实主义与个人发展视角，分析选择、定居与日常决策。 |
-| [rottenpen/fengge-wangmingtianya-perspective](https://github.com/rottenpen/fengge-wangmingtianya-perspective) | 峰哥亡命天涯 | 提炼峰哥亡命天涯的现实主义叙事与去魅视角，形成带江湖感的中文人物 Skill。 |
 
 ## 📚 书籍 / Books
 
