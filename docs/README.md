@@ -6,6 +6,7 @@ This directory records the repository's major editorial and product plans.
 
 | Date | Topic | Summary |
 |------|-------|---------|
+| [2026-04-18](plans/2026-04-18-fix-changelog-stub-seed.md) | Fix CHANGELOG stub seed | Drop the forward-looking "Operations: ingest" entry from scaffold; first entry is written by the bootstrap agent |
 | [2026-04-18](plans/2026-04-18-figure-skill-maintenance-layer.md) | Figure skill maintenance layer | Add CHANGELOG + probe-log stubs, introduce ingest/query/file-back/lint operation vocabulary, keep v2 architecture intact |
 | [2026-04-18](plans/2026-04-18-rewrite-create-figure-skill-phases-v2.md) | Rewrite figure workflow to v2 | Fully refactor create-figure-skill around route-aware knowledge compilation, simpler reference docs, and deterministic choke-point scripts |
 | [2026-04-09](plans/2026-04-09-add-a-tier-figures.md) | Add A-tier figures | Expand the figure index with the approved A-tier candidates from the second and third search rounds |

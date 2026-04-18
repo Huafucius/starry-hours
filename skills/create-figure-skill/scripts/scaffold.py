@@ -8,7 +8,7 @@ Produces:
     <output-dir>/<slug>/
         SKILL.md             (stub with frontmatter)
         meta.json            (slug, created_at)
-        CHANGELOG.md         (append-only pass log; first bootstrap entry seeded)
+        CHANGELOG.md         (append-only pass log; header + format only — first entry is agent-written)
         modes/               (five placeholder .md files)
         research/            (four placeholder .md files)
             README.md        (stub index for the research layer)
@@ -87,15 +87,23 @@ PRIOR_SNAPSHOT_STUB = """# Prior Snapshot
 
 CHANGELOG_STUB = """# Changelog
 
-<!-- Append-only. One entry per pass. Newest entry on top. -->
-<!-- See create-figure-skill/references/maintenance-operations.md for the operation vocabulary. -->
+Append-only. One entry per pass. Newest entry on top.
+See `create-figure-skill/references/maintenance-operations.md` for the operation vocabulary.
 
-## {today} · bootstrap
+<!-- Entry format:
 
-- Route: `bootstrap`
-- Operations: `ingest` (initial corpus)
-- Touched: all axes, all modes
-- Notes: initial scaffold created by `scripts/scaffold.py`.
+## YYYY-MM-DD · <route>
+
+- Route: `bootstrap` | `update` | `repair` | `extend`
+- Operations: <operations invoked, or "none">
+- Touched: <axes / modes / sources touched>
+- Evidence delta: <new sources, deletions, reclassifications>
+- Notes: <what actually happened and why>
+
+The first entry is written by the agent running the first substantive pass
+(usually bootstrap), not by this scaffold. Scaffold creating the skeleton
+is not itself a pass worth logging.
+-->
 """
 
 
@@ -174,7 +182,9 @@ def create_skeleton(slug: str, output_dir: Path) -> Path:
     )
 
     # Maintenance-layer artifacts. Append-only; LLM writes content, audit does not check.
-    (skill_dir / "CHANGELOG.md").write_text(CHANGELOG_STUB.format(today=today))
+    # Scaffold does NOT pre-write a first entry — that is for the bootstrap agent to do
+    # after the first real pass completes, so the log never contains forward-looking claims.
+    (skill_dir / "CHANGELOG.md").write_text(CHANGELOG_STUB)
     (research_dir / "probe-log.md").write_text(PROBE_LOG_STUB)
 
     return skill_dir

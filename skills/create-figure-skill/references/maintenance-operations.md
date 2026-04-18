@@ -66,4 +66,6 @@ Two append-only files in the generated skill record what operations ran:
 - `CHANGELOG.md` — one entry per pass. Date, route, operations, touched axes/modes, notable evidence delta. Agents append; they do not rewrite earlier entries.
 - `research/probe-log.md` — one entry per probe. Date, mode, prompt, outcome (`pass` / `fail` / `surprise`), boundary update if any.
 
-Both files are generated as stubs by `scripts/scaffold.py`. They are not checked by `audit.py` — their quality is the LLM's responsibility, not a binary gate.
+Both files are seeded as empty-of-entries stubs by `scripts/scaffold.py` — header and format instructions only, no pre-written bootstrap entry. The first real entry is written by the agent completing the first substantive pass. Scaffold creating the skeleton is not itself a pass worth logging; logging it would commit a forward-looking claim about operations that have not yet happened.
+
+Neither file is checked by `audit.py` — their quality is the LLM's responsibility, not a binary gate.
